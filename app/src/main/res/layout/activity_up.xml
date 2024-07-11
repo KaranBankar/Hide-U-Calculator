@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Images To Hide"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_35sdp"/>
+    <ImageView
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:src="@drawable/upload"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/Select_image"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click For Choose"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:text="Upload Images"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:id="@+id/upload_image"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:text="My Hides"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:id="@+id/disply_image"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

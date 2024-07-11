@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972470220530",
+    "project_id": "hideu-calculator",
+    "storage_bucket": "hideu-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972470220530:android:631b5c383ecc68263c426b",
+        "android_client_info": {
+          "package_name": "com.example.hideucalculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxQDj5TzAkZSirjmVrnoKOi3sVGSmVLWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
